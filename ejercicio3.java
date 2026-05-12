@@ -44,7 +44,7 @@ public class ejercicio3 {
         int h=0;
         for(int n : edades)
             totalEdades+= n;
-        promedio = totalEdades / edades.length;
+        promedio = (float)totalEdades / edades.length;
         for (int i = 0; i < genero.length; i++) {
         if(genero[i].equals("F")){
             if(edades[i] < promedio)
